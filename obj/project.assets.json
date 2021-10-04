@@ -1,0 +1,186 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "Google.Cloud.Firestore >= 2.4.0",
+      "Microsoft.AspNetCore.Authentication.JwtBearer >= 5.0.5",
+      "Microsoft.EntityFrameworkCore >= 5.0.8",
+      "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.8",
+      "Newtonsoft.Json >= 13.0.1",
+      "Swashbuckle.AspNetCore >= 6.1.4",
+      "System.IdentityModel.Tokens.Jwt >= 6.11.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\This PC\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\gmc\\gmc-api\\gmc_api\\gmc_api.csproj",
+      "projectName": "gmc_api",
+      "projectPath": "D:\\gmc\\gmc-api\\gmc_api\\gmc_api.csproj",
+      "packagesPath": "C:\\Users\\This PC\\.nuget\\packages\\",
+      "outputPath": "D:\\gmc\\gmc-api\\gmc_api\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\This PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[8.1.1, )"
+          },
+          "Google.Cloud.Firestore": {
+            "target": "Package",
+            "version": "[2.4.0, )"
+          },
+          "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[5.0.5, )"
+          },
+          "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[5.0.8, )"
+          },
+          "Microsoft.EntityFrameworkCore.SqlServer": {
+            "target": "Package",
+            "version": "[5.0.8, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[6.1.4, )"
+          },
+          "System.IdentityModel.Tokens.Jwt": {
+            "target": "Package",
+            "version": "[6.11.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.SqlServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package AutoMapper.Extensions.Microsoft.DependencyInjection. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "AutoMapper.Extensions.Microsoft.DependencyInjection",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.IdentityModel.Tokens.Jwt. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Google.Cloud.Firestore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Google.Cloud.Firestore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.Authentication.JwtBearer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Newtonsoft.Json with version (>= 13.0.1)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}

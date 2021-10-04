@@ -1,0 +1,14 @@
+version: '3'
+services:
+  gmc-api:
+      container_name: gmc-api
+      build:
+          context: ./
+          dockerfile: Dockerfile
+          args: 
+              port: 80         
+      restart: always
+      environment:
+        - GOOGLE_APPLICATION_CREDENTIALS=/app/gmcexperterp-firebase-adminsdk.json
+      ports:
+        - "8080:80"

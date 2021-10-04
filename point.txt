@@ -1,0 +1,11 @@
+﻿Authorization filters – They run first to determine whether a user is authorized for the current request
+Resource filters – They run right after the authorization filters and are very useful for caching and performance
+Action filters – They run right before and after the action method execution
+		Action Filters Implementation
+		Action Filters Scope
+		Order of Invocation
+		Writing Better Code with Action Filters
+		Validation with Action Filters
+		Dependency Injection in Action Filters
+Exception filters – They are used to handle exceptions before the response body is populated
+Result filters – They run before and after the execution of the action methods result.

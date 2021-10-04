@@ -1,0 +1,81 @@
+{
+  "version": 2,
+  "dgSpecHash": "WlEzgW6OYZBT7X7MlsLo84mnBQn1flSp4VhybhwUv64Q50HMFeWLHp+7LCkEnB0J6QM2FuifURiNgyYCidNehw==",
+  "success": false,
+  "projectFilePath": "D:\\gmc\\gmc-api\\gmc_api\\gmc_api.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.EntityFrameworkCore.SqlServer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.EntityFrameworkCore.SqlServer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package AutoMapper.Extensions.Microsoft.DependencyInjection. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "AutoMapper.Extensions.Microsoft.DependencyInjection",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package System.IdentityModel.Tokens.Jwt. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Swashbuckle.AspNetCore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Swashbuckle.AspNetCore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Google.Cloud.Firestore. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Google.Cloud.Firestore",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Unable to find package Microsoft.AspNetCore.Authentication.JwtBearer. No packages exist with this id in source(s): Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Authentication.JwtBearer",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Unable to find package Newtonsoft.Json with version (>= 13.0.1)\r\n  - Found 1 version(s) in Microsoft Visual Studio Offline Packages [ Nearest version: 9.0.1 ]",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
